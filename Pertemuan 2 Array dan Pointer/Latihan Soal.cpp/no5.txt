@@ -1,0 +1,19 @@
+Diketahui:
+&x[1][1][4] = 12EFH
+Tipe data: int → 2 byte
+Ditanya: &x[0][0][3] = ?
+Rumus alamat 3D (row-major):
+&x[a][b][c] = &x[0][0][0] + (((a * baris * kolom) + (b * kolom) + c) * ukuran_tipe_data)
+Tapi di sini yang diketahui bukan elemen [0][0][0], melainkan [1][1][4].
+Maka kita cari selisih posisi antara [1][1][4] dan [0][0][3].
+Jumlah kolom = 5
+Jumlah baris = 3
+Posisi linear = (a * 3 * 5) + (b * 5) + c
+•	Posisi(1,1,4) = (1×15) + (1×5) + 4 = 24
+•	Posisi(0,0,3) = (0×15) + (0×5) + 3 = 3
+Selisih = 24 - 3 = 21 elemen
+Setiap elemen = 2 byte
+Perbedaan alamat = 21 × 2 = 42 (desimal) = 2A (hex)
+Karena posisi (1,1,4) lebih jauh, maka (0,0,3) lebih kecil:
+&x[0][0][3] = 12EFH - 2AH = 12C5H
+Jawaban: &x[0][0][3] = 12C5H
