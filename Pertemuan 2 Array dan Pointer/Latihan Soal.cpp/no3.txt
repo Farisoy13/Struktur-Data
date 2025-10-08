@@ -1,0 +1,15 @@
+Diketahui:
+&x[0][0] = 1000H
+Tipe data: float → 4 byte
+Ditanya: &x[2][4] = ?
+Rumus alamat 2D (row-major order / C style):
+&x[i][j] = &x[0][0] + ((i * jumlah_kolom) + j) * ukuran_tipe_data
+Masukkan nilai:
+= 1000H + ((2 * 8) + 4) * 4 byte
+= 1000H + (16 + 4) * 4
+= 1000H + 20 * 4
+= 1000H + 80 (hex)
+80 desimal = 50H
+&x[2][4] = 1000H + 50H = 1050H
+Jawaban: &x[2][4] = 1050H
+
