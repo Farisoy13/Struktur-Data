@@ -1,0 +1,10 @@
+Diketahui n = 100, F = 15, R = 37.
+a.	Jumlah pengantri yg blum dilayani
+Jumlah isi = (R - F) + 1
+= (37 - 15) + 1
+= 23
+
+b.	Jumlah kolom yang masih bisa diisi
+Sisa = n - jumlah_isi
+= 100 - 23
+= 77
