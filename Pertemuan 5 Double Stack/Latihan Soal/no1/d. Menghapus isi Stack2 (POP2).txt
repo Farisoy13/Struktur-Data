@@ -1,0 +1,8 @@
+Algoritma POP2(Stack)
+1.  if (TOP2 == MAX) then
+2.      print "STACK2 KOSONG"
+3.  else
+4.      data ← Stack[TOP2]
+5.      TOP2 ← TOP2 + 1
+6.      print "Data yang dihapus dari Stack2:", data
+7.  endif
