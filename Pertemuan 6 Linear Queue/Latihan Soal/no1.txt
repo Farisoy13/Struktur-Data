@@ -1,0 +1,15 @@
+Algoritma ISI_10_RECORD(Q)
+1.  i ← 1
+2.  while (i ≤ 10) and (R < MAX - 1) do
+3.      input data
+4.      R ← R + 1
+5.      Q[R] ← data
+6.      if (F == -1) then
+7.          F ← 0
+8.      endif
+9.      i ← i + 1
+10. endwhile
+11. if (R == MAX - 1)
+        print "Antrian penuh, proses pengisian dihentikan."
+12. else
+        print "Proses pengisian selesai."
