@@ -1,10 +1,10 @@
 Diketahui:
-&x[3] = 1000H
-Tipe data: int  → 2 byte (diasumsikan sistem 16-bit)
+    &x[3] = 1000H
+    Tipe data: int  → 2 byte (diasumsikan sistem 16-bit)
 Ditanya: &x[9] = ?
-Langkah:
-Selisih elemen = 9 - 3 = 6
-Ukuran tiap elemen = 2 byte
-Tambahan alamat = 6 * 2 = 12 (desimal) = C (hex)
-&x[9] = 1000H + CH = 100CH
+    Langkah:
+    Selisih elemen = 9 - 3 = 6
+    Ukuran tiap elemen = 2 byte
+    Tambahan alamat = 6 * 2 = 12 (desimal) = C (hex)
+    &x[9] = 1000H + CH = 100CH
 Jawaban: &x[9] = 100CH
