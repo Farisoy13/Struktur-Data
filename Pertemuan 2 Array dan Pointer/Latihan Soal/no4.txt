@@ -1,13 +1,13 @@
 Diketahui:
-&x[0][0] = 1000H
-Tipe data: long → 4 byte
+    &x[0][0] = 1000H
+    Tipe data: long → 4 byte
 Ditanya: &x[2][4] = ?
-= 1000H + ((2 * 14) + 4) * 4
-= 1000H + (28 + 4) * 4
-= 1000H + 32 * 4
-= 1000H + 128 (desimal)
-128 desimal = 80H
-&x[2][4] = 1000H + 80H = 1080H
+    = 1000H + ((2 * 14) + 4) * 4
+    = 1000H + (28 + 4) * 4
+    = 1000H + 32 * 4
+    = 1000H + 128 (desimal)
+    128 desimal = 80H
+    &x[2][4] = 1000H + 80H = 1080H
 Jawaban: &x[2][4] = 1080H
 
 
