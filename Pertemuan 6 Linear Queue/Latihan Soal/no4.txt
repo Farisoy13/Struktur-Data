@@ -1,0 +1,18 @@
+a. Kondisi Kosong (tak ada isinya)
+Antrian dikatakan kosong jika nilai F = -1 dan R = -1.
+Artinya belum ada elemen yang masuk ke dalam antrian.
+b. Kondisi Penuh (tak bisa diisi)
+Antrian penuh jika R = MAX - 1.
+Artinya posisi belakang (rear) sudah berada di indeks terakhir array, sehingga tidak ada tempat lagi untuk menambah data.
+c. Kondisi Bisa Diisi
+Antrian masih bisa diisi jika R < MAX - 1.
+Artinya masih ada ruang kosong di belakang antrian untuk menambahkan elemen baru.
+d. Kondisi Ada Isinya
+Antrian berisi jika F != -1 dan R >= F.
+Artinya sudah ada elemen yang dimasukkan, dan belum semuanya dikeluarkan.
+e. Kondisi Tak Bisa Diisi Lagi, Tapi Belum Ada Isi yang Keluar
+Terjadi ketika R = MAX - 1, tetapi F != -1.
+Artinya antrian sudah sampai di ujung array, namun elemen di depan belum dikeluarkan sehingga ruang kosong di awal tidak bisa digunakan lagi.
+f. Kondisi Antrian Perlu Direset
+Reset diperlukan jika sudah banyak elemen dihapus (F bergerak ke kanan) dan R sudah mencapai MAX - 1, padahal masih ada ruang kosong di depan.
+Untuk mengatasi hal ini, antrian perlu direset agar F dan R kembali ke posisi awal (F = -1, R = -1).
