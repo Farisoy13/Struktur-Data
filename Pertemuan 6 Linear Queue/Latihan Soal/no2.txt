@@ -1,0 +1,17 @@
+Algoritma HAPUS_10_RECORD(Q)
+1.  i ← 1
+2.  while (i ≤ 10) and (F != -1) do
+3.      data ← Q[F]
+4.      print "Data yang dihapus:", data
+5.      if (F == R) then
+6.          F ← -1
+7.          R ← -1
+8.      else
+9.          F ← F + 1
+10.     endif
+11.     i ← i + 1
+12. endwhile
+13. if (F == -1)
+        print "Antrian kosong, proses delete dihentikan."
+14. else
+        print "Proses delete selesai."
