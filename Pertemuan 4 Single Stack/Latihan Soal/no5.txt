@@ -1,0 +1,8 @@
+a. Kondisi Kosong:
+TOP = -1 → belum ada data yang disimpan di stack.
+b. Kondisi Penuh:
+TOP = MAX - 1 → stack sudah berisi elemen sebanyak kapasitas maksimal.
+c. Kondisi Bisa Diisi:
+TOP < MAX - 1 → masih ada ruang kosong untuk menambah data.
+d. Kondisi Ada Isinya:
+TOP >= 0 → ada minimal satu elemen di dalam stack.
