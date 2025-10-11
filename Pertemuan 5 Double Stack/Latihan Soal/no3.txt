@@ -1,0 +1,10 @@
+a. Kondisi Penuh
+Kedua stack penuh bila posisi TOP1 + 1 == TOP2.
+Artinya tidak ada ruang kosong di antara dua stack.
+b. Kedua Stack Bisa Diisi
+Jika TOP1 + 1 < TOP2.
+Artinya masih ada ruang kosong di tengah array.
+c. Kedua Stack Kosong
+Jika TOP1 = -1 dan TOP2 = MAX.
+Berarti belum ada elemen di Stack1 maupun Stack2.
+
