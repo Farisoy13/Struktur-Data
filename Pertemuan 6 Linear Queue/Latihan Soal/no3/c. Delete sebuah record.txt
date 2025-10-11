@@ -1,0 +1,11 @@
+Algoritma DELETE(Q)
+1.  if (F == -1)
+print "Queue kosong."
+return
+2.  data ← Q[F]
+3.  if (F == R)
+F ← -1
+R ← -1
+4.  else
+F ← F + 1
+5.  print "Data yang dihapus:", data
