@@ -2,7 +2,7 @@
 using namespace std;
 
 struct Mahasiswa {
-    int noUrut;
+    int no_urut;
     string nama;
     int usia;
     float nilai;
@@ -11,22 +11,22 @@ struct Mahasiswa {
 int main() {
     Mahasiswa mhs;
 
-    cout << "Masukkan No Urut : ";
-    cin >> mhs.noUrut;
-    cin.ignore();
-    cout << "Masukkan Nama    : ";
-    getline(cin, mhs.nama);
-    cout << "Masukkan Usia    : ";
+    cout << "Masukkan No Urut: ";
+    cin >> mhs.no_urut;
+    cout << "Masukkan Nama: ";
+    cin >> mhs.nama;
+    cout << "Masukkan Usia: ";
     cin >> mhs.usia;
-    cout << "Masukkan Nilai   : ";
+    cout << "Masukkan Nilai: ";
     cin >> mhs.nilai;
 
     cout << "\n=== Data Mahasiswa ===\n";
-    cout << "No Urut : " << mhs.noUrut << endl;
+    cout << "No Urut : " << mhs.no_urut << endl;
     cout << "Nama    : " << mhs.nama << endl;
     cout << "Usia    : " << mhs.usia << endl;
     cout << "Nilai   : " << mhs.nilai << endl;
 
     return 0;
 }
+
 
