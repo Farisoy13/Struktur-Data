@@ -1,0 +1,4 @@
+Algoritma RESET(Q)
+1.  F ← -1
+2.  R ← -1
+3.  print "Queue telah direset (kosong kembali)."
