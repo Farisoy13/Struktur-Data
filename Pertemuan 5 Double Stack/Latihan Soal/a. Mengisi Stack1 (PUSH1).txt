@@ -1,9 +1,0 @@
-Algoritma PUSH1(Stack)
-1.  if (TOP1 + 1 == TOP2) then
-2.      print "STACK PENUH"
-3.  else
-4.      TOP1 ← TOP1 + 1
-5.      input data
-6.      Stack[TOP1] ← data
-7.      print "Data masuk ke Stack1"
-8.  endif
