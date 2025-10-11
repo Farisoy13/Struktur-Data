@@ -1,0 +1,3 @@
+1. Jika TOP2 ≠ MAX
+2. Ambil data di Stack[TOP2]
+3. Naikkan TOP2 satu posisi
