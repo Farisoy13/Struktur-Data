@@ -1,0 +1,8 @@
+Algoritma POP1(Stack)
+1.  if (TOP1 == -1) then
+2.      print "STACK1 KOSONG"
+3.  else
+4.      data ← Stack[TOP1]
+5.      TOP1 ← TOP1 - 1
+6.      print "Data yang dihapus dari Stack1:", data
+7.  endif
