@@ -2,7 +2,7 @@
 using namespace std;
 
 struct Mahasiswa {
-    int noUrut;
+    int no_urut;
     string nama;
     int umur;
     string alamat;
@@ -12,31 +12,25 @@ struct Mahasiswa {
 int main() {
     Mahasiswa mhs[15];
 
-    cout << "Masukkan Data 15 Mahasiswa:\n";
     for (int i = 0; i < 15; i++) {
-        mhs[i].noUrut = i + 1;
-        cout << "\nMahasiswa ke-" << mhs[i].noUrut << endl;
-        cin.ignore();
-        cout << "Nama    : ";
-        getline(cin, mhs[i].nama);
-        cout << "Umur    : ";
-        cin >> mhs[i].umur;
-        cin.ignore();
-        cout << "Alamat  : ";
-        getline(cin, mhs[i].alamat);
-        cout << "Nilai   : ";
-        cin >> mhs[i].nilai;
+        mhs[i].no_urut = i + 1;
+        cout << "Nama: "; cin >> mhs[i].nama;
+        cout << "Umur: "; cin >> mhs[i].umur;
+        cout << "Alamat: "; cin >> mhs[i].alamat;
+        cout << "Nilai: "; cin >> mhs[i].nilai;
+        cout << endl;
     }
 
-    cout << "\n=== Data Seluruh Mahasiswa ===\n";
+    cout << "\n=== Data 15 Mahasiswa ===\n";
     for (int i = 0; i < 15; i++) {
-        cout << "\nNo Urut : " << mhs[i].noUrut;
-        cout << "\nNama    : " << mhs[i].nama;
-        cout << "\nUmur    : " << mhs[i].umur;
-        cout << "\nAlamat  : " << mhs[i].alamat;
-        cout << "\nNilai   : " << mhs[i].nilai << endl;
+        cout << mhs[i].no_urut << ". "
+             << mhs[i].nama << " | "
+             << mhs[i].umur << " th | "
+             << mhs[i].alamat << " | Nilai: "
+             << mhs[i].nilai << endl;
     }
 
     return 0;
 }
+
 
