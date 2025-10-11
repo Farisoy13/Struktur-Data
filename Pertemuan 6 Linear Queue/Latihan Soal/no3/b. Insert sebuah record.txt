@@ -1,0 +1,9 @@
+Algoritma INSERT(Q, data)
+1.  if (R == MAX - 1)
+print "Queue penuh."
+return
+2.  else if (F == -1)
+F ← 0
+3.  R ← R + 1
+4.  Q[R] ← data
+5.  print "Data berhasil dimasukkan ke queue."
