@@ -1,15 +1,15 @@
 Diketahui:
-&x[0] = 1000H
-Tipe data: char  → 1 byte
+   &x[0] = 1000H
+   Tipe data: char  → 1 byte
 Ditanya:
-&x[8] = ... ?
- Rumus alamat elemen ke-n:
-&x[n] = &x[0] + n * ukuran_tipe_data
+   &x[8] = ... ?
+   Rumus alamat elemen ke-n:
+   &x[n] = &x[0] + n * ukuran_tipe_data
 
-Maka:
-&x[8] = 1000H + 8 * 1 byte
-&x[8] = 1000H + 8
-&x[8] = 1008H
+   Maka:
+   &x[8] = 1000H + 8 * 1 byte
+   &x[8] = 1000H + 8
+   &x[8] = 1008H
 Jawaban: &x[8] = 1008H
 
 
