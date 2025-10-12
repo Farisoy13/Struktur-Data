@@ -1,0 +1,25 @@
+a. Algoritma INSERT (enqueue)
+    Algoritma INSERT(Q, item)
+1.  if ((R + 1) mod MAX == F)
+        print "Queue penuh"
+        return
+2.  else if (F == -1)
+        F ← 0
+        R ← 0
+3.  else
+        R ← (R + 1) mod MAX
+4.  Q[R] ← item
+5.  print "Data berhasil dimasukkan"
+
+b. Algoritma DELETE (dequeue)
+    Algoritma DELETE(Q)
+1.  if (F == -1)
+        print "Queue kosong"
+        return
+2.  item ← Q[F]
+3.  if (F == R)
+        F ← -1
+        R ← -1
+4.  else
+        F ← (F + 1) mod MAX
+5.  print "Data yang dihapus:", item
