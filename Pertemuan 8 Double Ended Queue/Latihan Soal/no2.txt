@@ -1,0 +1,5 @@
+a. Kosong → count == 0 atau front == -1 dan rear == -1
+b. Penuh kanan → (rear + 1) % MAX == front
+c. Penuh kiri → front == (rear + 1) % MAX
+d. Penuh total → count == MAX
+e. Hanya diisi 10 pengantri → count == 10
