@@ -1,0 +1,32 @@
+Kondisi: ada linked list (lebih dari 10 simpul) dengan FIRST menunjuk simpul pertama dan LAST menunjuk simpul terakhir (LAST->LINK = NULL). Tulis algoritma agar pointer Q menunjuk ke posisi tertentu. Notasi: Q = FIRST artinya pointer Q menunjuk simpul pertama; Q = Q->LINK berarti maju satu simpul.
+
+a. 1. Q = FIRST
+Selesai
+
+b. 1. Q = FIRST
+   2. Untuk i = 1 sampai 6 lakukan:
+      Q = Q->LINK
+     (setelah loop Q menunjuk simpul ke-7)
+   Selesai
+
+c. 1. Q = FIRST
+   2. Selama Q->LINK != NULL lakukan:
+      Q = Q->LINK
+      (ketika loop selesai Q menunjuk simpul terakhir)
+      Selesai
+
+d. 1. Q = FIRST
+   2. Selama (Q != NULL) dan (Q->INFO != 50) lakukan:
+      Q = Q->LINK
+   3. Jika Q == NULL maka simpul dengan INFO=50 tidak ditemukan
+      selain itu Q menunjuk simpul dengan INFO = 50
+      Selesai
+
+e. 1. Jika FIRST == NULL maka berhenti (list kosong)
+   2. Jika FIRST->INFO == 50 maka tidak ada simpul di depan (atau tangani khusus)
+   3. Q = FIRST
+   4. Selama (Q->LINK != NULL) dan (Q->LINK->INFO != 50) lakukan:
+      Q = Q->LINK
+   5. Jika Q->LINK == NULL maka simpul dengan INFO = 50 tidak ditemukan
+      selain itu Q menunjuk simpul tepat sebelum simpul yang INFO = 50
+   Selesai
