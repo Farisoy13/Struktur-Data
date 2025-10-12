@@ -1,0 +1,8 @@
+Mulai
+1. Inisialisasi variabel front, rear, dan count
+2. Selama antrian belum penuh kanan lakukan langkah berikut:
+     a. Input data record dari pengguna
+     b. Jika antrian kosong, set front = 0 dan rear = 0
+     c. Jika tidak kosong, set rear = (rear + 1) mod MAX
+     d. Simpan data ke elemen[rear]
+     e. Tambah count = count + 1
