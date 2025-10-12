@@ -1,0 +1,21 @@
+c. TRUE / FALSE untuk tiap pernyataan
+(i) if (P->LINK == R) → FALSE
+P->LINK = Node2, R = Node3 → tidak sama.
+
+(ii) if (Q->LINK == R->LINK) → FALSE
+Q->LINK = Node3, R->LINK = Node4 → tidak sama.
+
+(iii) if (Q->LINK->LINK == S->LINK) → FALSE
+Q->LINK->LINK = R->LINK = Node4; S->LINK = NULL → Node4 ≠ NULL.
+
+(iv) if (Q == R) → FALSE
+Q dan R menunjuk simpul berbeda.
+
+(v) if (Q->LINK == R) → TRUE
+Q->LINK menunjuk Node3, R menunjuk Node3 → sama.
+
+(vi) if (R->LINK->INFO == 5) → FALSE
+R->LINK->INFO = Node4->INFO = 7 → 7 ≠ 5.
+
+(vii) if (Q->INFO == 4) → TRUE
+Q->INFO memang 4.
