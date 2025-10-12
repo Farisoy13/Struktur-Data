@@ -1,0 +1,4 @@
+•	P->LINK == Q (keduanya menunjuk simpul kedua).
+•	Q->LINK == R (keduanya menunjuk simpul ketiga).
+•	R->LINK == S (keduanya menunjuk simpul keempat).
+(Tidak ada pointer lain yang sama; S->LINK = NULL dan berbeda dari yang lain.)
