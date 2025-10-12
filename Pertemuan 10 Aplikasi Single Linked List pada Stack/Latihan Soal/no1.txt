@@ -1,0 +1,4 @@
+Konsep LIFO (Last In, First Out) berarti elemen yang terakhir dimasukkan akan menjadi yang pertama dikeluarkan. 
+Prinsip ini digunakan pada struktur data stack (tumpukan), di mana setiap data baru diletakkan di bagian atas 
+dan hanya elemen paling atas yang bisa diakses atau dihapus terlebih dahulu. Contohnya seperti tumpukan 
+piring — piring terakhir yang diletakkan di atas akan diambil pertama kali.
