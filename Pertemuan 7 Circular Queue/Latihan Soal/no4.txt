@@ -8,5 +8,3 @@ Algoritma HAPUS_10_RECORD(Q)
 6.  else
         print "Penghapusan selesai"
 
-5. Tulis untuk menghitung dan mencetak jumlah tempat(elemen) yang ada isinya
-bila diketahui nilai F dan R tanpa mengetahui nilai Counter.
