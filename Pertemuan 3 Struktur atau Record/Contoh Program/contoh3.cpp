@@ -2,16 +2,16 @@
 using namespace std;
 
 struct Pribadi {
-   char nama[50];
-   int usia;
-   float gaji;
+    char nama[50];
+    int usia;
+    float gaji;
 };
 
-Person getData(Pribadi);
+// deklarasi fungsi
+Pribadi getData(Pribadi);
 void displayData(Pribadi);
 
-int main()
-{
+int main() {
     Pribadi p;
 
     p = getData(p);
@@ -21,23 +21,19 @@ int main()
 }
 
 Pribadi getData(Pribadi p) {
-
-     cout << "Masukkan Nama Lengkap: ";
-     cin.get(p.nama, 50);
-  
-     cout << "Masukkan Usia: ";
-     cin >> p.usia;
-
-     cout << "Masukkan Gaji: ";
-     cin >> p.gaji;
-
-     return p;
+    cout << "Masukkan nama  : ";
+    cin >> p.nama;
+    cout << "Masukkan usia  : ";
+    cin >> p.usia;
+    cout << "Masukkan gaji  : ";
+    cin >> p.gaji;
+    return p;
 }
 
-void displayData(Pribadi p)
-{
-      cout << "\nMenampilkan Informasi." << endl;
-      cout << "Nama: " << p.nama << endl;
-      cout <<"Usia: " << p.usia << endl;
-      cout <<"Gaji:" <<p.gaji;
+void displayData(Pribadi p) {
+    cout << "\nData Pribadi:" << endl;
+    cout << "Nama : " << p.nama << endl;
+    cout << "Usia : " << p.usia << endl;
+    cout << "Gaji : " << p.gaji << endl;
 }
+
