@@ -1,1 +1,32 @@
+Ciri-ciri Circular Queue
+Misalkan kapasitas queue = MAX, dan ada dua variabel:
+•	F → front (mengambil data)
+•	R → rear (menambah data)
+a. Kosong
+Queue kosong saat:
+       F = -1 dan R = -1
+Atau (tergantung implementasi):
+       F = (R + 1) mod MAX
+→ artinya tidak ada elemen yang bisa diambil.
+b. Penuh
+Queue penuh saat:
+      (F == (R + 1) mod MAX)
+Artinya posisi rear berikutnya akan menimpa front.
+c. Bisa diisi
+Queue bisa diisi kalau:
+      (F != (R + 1) mod MAX)
+→ belum penuh.
+d. Ada isinya
+Queue berisi kalau:
+      F != -1
+atau (kalau pakai sistem melingkar):
+      F != (R + 1) mod MAX
+dan tidak sama dengan kondisi kosong.
+e. Hanya berisi 10 record
+Berarti jumlah elemen = 10.
+Kalau kita tahu posisi F dan R:
+f. Tempat kosong hanya ada 10
+Artinya kapasitas total - elemen terisi = 10.
+Tempat kosong = MAX - ((R - F + MAX) mod MAX + 1) = 10
+
 
