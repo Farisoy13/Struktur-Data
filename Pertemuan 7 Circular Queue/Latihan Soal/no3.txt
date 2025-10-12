@@ -1,0 +1,10 @@
+Algoritma ISI_10_RECORD(Q)
+1.  i ← 1
+2.  while (i ≤ 10) and ((R + 1) mod MAX != F) do
+3.      input item
+4.      INSERT(Q, item)
+5.      i ← i + 1
+6.  if ((R + 1) mod MAX == F)
+        print "Queue penuh, pengisian dihentikan"
+7.  else
+        print "Pengisian selesai"
