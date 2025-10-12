@@ -1,0 +1,17 @@
+a. Nama dan isi tiap-tiap pointer
+
+•	P → menunjuk ke simpul pertama (node dengan INFO = 1).
+  P->INFO = 1
+	P->LINK = alamat simpul kedua (node INFO = 4).
+•	Q → menunjuk ke simpul kedua (INFO = 4).
+	Q->INFO = 4
+	Q->LINK = alamat simpul ketiga (INFO = 5).
+•	R → menunjuk ke simpul ketiga (INFO = 5).
+	R->INFO = 5
+	R->LINK = alamat simpul keempat (INFO = 7).
+•	S → menunjuk ke simpul keempat (INFO = 7).
+	S->INFO = 7
+  S->LINK = NULL (simpul terakhir).
+
+Selain itu:
+•	Node1->LINK = Node2, Node2->LINK = Node3, Node3->LINK = Node4, Node4->LINK = NULL.
