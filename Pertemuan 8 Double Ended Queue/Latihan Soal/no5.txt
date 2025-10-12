@@ -1,0 +1,12 @@
+Mulai
+1. Inisialisasi variabel front, rear, count, dan i = 1
+2. Selama antrian belum penuh kanan dan i ≤ 10 lakukan langkah berikut:
+     a. Input data record dari pengguna
+     b. Jika antrian kosong, set front = 0 dan rear = 0
+     c. Jika tidak kosong, set rear = (rear + 1) mod MAX
+     d. Simpan data ke elemen[rear]
+     e. Tambah count = count + 1
+     f. Tambah i = i + 1
+3. Jika antrian sudah penuh kanan sebelum 10 record, tampilkan pesan “Antrian penuh sebelum 10 record”
+4. Jika berhasil mengisi 10 record, tampilkan pesan “Pengisian selesai”
+Selesai
