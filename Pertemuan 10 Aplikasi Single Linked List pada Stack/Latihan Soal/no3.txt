@@ -1,0 +1,7 @@
+Penerapan stack dengan array dilakukan dengan cara menyimpan data di dalam elemen-elemen array 
+dan menggunakan variabel TOP untuk menandai posisi elemen paling atas. Operasi utama yang digunakan 
+adalah PUSH untuk menambah data ke posisi TOP, POP untuk menghapus data dari TOP, dan PEEK untuk
+melihat isi data paling atas tanpa menghapusnya. Struktur ini sering digunakan pada sistem seperti 
+pemrosesan ekspresi matematika, undo/redo pada aplikasi, dan pengelolaan tumpukan fungsi 
+(function call stack) di program komputer.
+
