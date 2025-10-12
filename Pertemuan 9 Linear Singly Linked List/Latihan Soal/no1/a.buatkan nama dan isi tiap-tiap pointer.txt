@@ -1,5 +1,3 @@
-a. Nama dan isi tiap-tiap pointer
-
 •	P → menunjuk ke simpul pertama (node dengan INFO = 1).
   P->INFO = 1
 	P->LINK = alamat simpul kedua (node INFO = 4).
