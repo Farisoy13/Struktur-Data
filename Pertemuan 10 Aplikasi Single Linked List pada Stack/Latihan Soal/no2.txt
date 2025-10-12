@@ -1,0 +1,4 @@
+Konsep FIFO (First In, First Out) berarti elemen yang pertama kali dimasukkan akan menjadi 
+yang pertama dikeluarkan. Prinsip ini digunakan pada struktur data queue (antrian), di mana 
+data baru selalu ditambahkan di belakang dan diambil dari bagian depan. Contohnya seperti 
+antrean di kasir — orang yang datang lebih dulu akan dilayani terlebih dahulu.
