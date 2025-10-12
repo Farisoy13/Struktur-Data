@@ -1,0 +1,31 @@
+Kondisi: sudah ada linked list (lebih dari 10 simpul), tugas: a–d.
+Gunakan pointer bantu P (atau Q) untuk menelusuri daftar.
+a. 1. count = 0
+   2. P = FIRST
+   3. Selama P != NULL lakukan:
+      count = count + 1
+      P = P->LINK
+   4. Cetak count
+   Selesai
+
+b. 1. total = 0
+   2. P = FIRST
+   3. Selama P != NULL lakukan:
+      total = total + P->INFO
+      P = P->LINK
+   4. Cetak total
+   Selesai
+
+c. 1. P = FIRST
+   2. Selama P != NULL lakukan:
+      Cetak P->INFO
+      P = P->LINK
+      Selesai
+
+d. 1. count50 = 0
+   2. P = FIRST
+   3. Selama P != NULL lakukan:
+      Jika P->INFO == 50 maka count50 = count50 + 1
+      P = P->LINK
+   4. Cetak count50
+   Selesai
