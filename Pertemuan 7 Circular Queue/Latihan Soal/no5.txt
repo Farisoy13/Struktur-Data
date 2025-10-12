@@ -1,0 +1,6 @@
+Kalau diketahui F dan R, kapasitas MAX:
+if (F == -1)
+    jumlah = 0
+else
+    jumlah = (R - F + MAX) mod MAX + 1
+
