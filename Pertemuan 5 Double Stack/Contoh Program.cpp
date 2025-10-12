@@ -76,7 +76,7 @@ int DStack::popB( int *item )
        return -1;
    }
   
-   *item = ele[top2++]
+   *item = ele[top2++];
    return 0;
 }
 
