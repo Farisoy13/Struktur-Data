@@ -1,0 +1,32 @@
+a.	Inisialisasi
+Mulai
+Atur front = -1
+Atur rear = -1
+Atur count = 0
+Selesai
+
+b.	Insert sebuah record dari kanan
+Jika queue penuh maka tampilkan "Overflow"
+Jika queue kosong maka front = 0, rear = 0
+Jika tidak kosong maka rear = (rear + 1) mod MAX
+Masukkan data ke elemen[rear]
+Tambahkan count = count + 1
+
+c.	Insert sebuah record dari kiri
+Jika queue penuh maka tampilkan "Overflow"
+Jika queue kosong maka front = 0, rear = 0
+Jika tidak kosong maka front = (front - 1 + MAX) mod MAX
+Masukkan data ke elemen[front]
+Tambahkan count = count + 1
+
+d.	Delete sebuah record dari kanan
+Jika queue kosong maka tampilkan "Underflow"
+Ambil data dari elemen[rear]
+Kurangi rear = (rear - 1 + MAX) mod MAX
+Kurangi count = count – 1
+
+e.	Delete sebuah record dari kiri
+Jika queue kosong maka tampilkan "Underflow"
+Ambil data dari elemen[front]
+Tambahkan front = (front + 1) mod MAX
+Kurangi count = count – 1
