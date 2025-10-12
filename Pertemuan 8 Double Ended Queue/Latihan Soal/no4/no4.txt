@@ -1,9 +1,0 @@
-Mulai
-1. Selama antrian belum kosong lakukan langkah berikut:
-     a. Ambil data dari posisi rear
-     b. Tampilkan data yang dihapus
-     c. Jika rear == front, maka set front = -1 dan rear = -1
-     d. Jika tidak, set rear = (rear - 1 + MAX) mod MAX
-     e. Kurangi count = count - 1
-2. Jika antrian sudah kosong, tampilkan pesan “Antrian kosong”
-Selesai
