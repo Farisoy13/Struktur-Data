@@ -1,4 +1,3 @@
-c. TRUE / FALSE untuk tiap pernyataan
 (i) if (P->LINK == R) → FALSE
 P->LINK = Node2, R = Node3 → tidak sama.
 
