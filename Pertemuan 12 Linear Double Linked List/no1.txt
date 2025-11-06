@@ -1,0 +1,13 @@
+a. Nama pointer sesuai nomor:
+1.	Q
+2.	LEFT node pertama
+3.	RIGHT node pertama
+4.	LEFT node kedua
+5.	RIGHT node kedua
+6.	INFO node kedua
+7.	Alamat node pertama
+8.	Alamat node kedua
+
+b. Pointer dengan nilai sama:
+•	(1) dan (4) sama-sama menunjuk ke alamat (7)
+•	(3) dan (8) sama-sama menunjuk ke alamat (5 / node kedua)
