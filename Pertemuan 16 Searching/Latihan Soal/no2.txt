@@ -1,0 +1,10 @@
+1. Tentukan dua variabel awal
+- low = 0
+- high = banyak_data − 1, yaitu 8.
+2. Selama low masih kurang atau sama dengan high, lakukan langkah berikut:
+3. Hitung nilai mid = (low + high) / 2.
+4. Bandingkan elemen pada mid dengan nilai yang dicari:
+- Jika arr[mid] sama dengan nilai yang dicari, pencarian selesai
+- Jika nilai yang dicari lebih besar dari arr[mid], geser pencarian ke kanan dengan cara: low = mid + 1
+- Jika nilai yang dicari lebih kecil dari arr[mid], geser pencarian ke kiri dengan cara: high = mid − 1
+5. Jika low melewati high, berarti nilai tidak ditemukan dalam data.
