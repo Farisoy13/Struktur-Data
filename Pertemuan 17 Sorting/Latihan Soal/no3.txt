@@ -1,0 +1,15 @@
+Data:
+8, 22, 7, 9, 31, 5, 13
+
+Kita hitung swap-nya langkah demi langkah (tanpa tabel, tapi urutan dijelaskan):
+- Bandingkan 8 dan 22 → sudah benar → 0 swap
+- 22 dan 7 → salah → swap → 1
+- 22 dan 9 → salah → swap → 2
+- 22 dan 31 → benar → 2
+- 31 dan 5 → salah → swap → 3
+- 31 dan 13 → salah → swap → 4
+
+Iterasi berikutnya akan melakukan swap lagi karena masih banyak elemen yang tidak urut.
+Setelah dihitung sampai array benar-benar urut, total swap-nya adalah:
+
+Jawaban: c. 13
