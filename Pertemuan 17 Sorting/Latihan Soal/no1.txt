@@ -1,0 +1,10 @@
+a. N^2
+b. NLogN
+c. N
+d. N(LogN)^2
+
+Jawaban yang benar: c. N
+
+Penjelasan singkat:
+Kasus terbaik Bubble Sort terjadi saat data sudah dalam urutan menaik (sudah terurut). Bubble Sort hanya
+membutuhkan 1 kali pengecekan tanpa melakukan swap, sehingga waktunya O(N)
