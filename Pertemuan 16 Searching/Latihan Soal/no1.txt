@@ -1,0 +1,17 @@
+a. Jika N = 17
+Binary Search mulai dengan low = 0 dan high = 8.
+Mid dihitung (0 + 8) / 2 = 4.
+Elemen pada index 4 adalah 17.
+Karena sama dengan nilai yang dicari, pencarian berhenti.
+➡️ 17 ditemukan pada iterasi pertama, posisi index = 4.
+
+b. Jika N = 22
+Iterasi pertama:
+low = 0, high = 
+mid = (0 + 8) / 2 = 4 → arr[4] = 17
+22 lebih besar dari 17, jadi pencarian pindah ke kanan (low = 5)
+Iterasi kedua:
+low = 5, high = 8
+mid = (5 + 8) / 2 = 6 → arr[6] = 2
+Nilainya cocok.
+➡️ 22 ditemukan pada iterasi kedua, posisi index = 6.
