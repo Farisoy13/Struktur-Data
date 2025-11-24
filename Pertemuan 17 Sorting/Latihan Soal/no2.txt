@@ -1,0 +1,10 @@
+a. Ketika elemen diurutkan dalam urutan menaik
+b. Ketika elemen diurutkan dalam urutan menurun
+c. Ketika elemen tidak diurutkan berdasarkan urutan apa pun
+d. Tidak ada kasus terbaik untuk Bubble Sort. Selalu membutuhkan waktu O(n*n)
+
+Jawaban yang benar: a. Ketika elemen diurutkan dalam urutan menaik
+
+Penjelasan singkat:
+Jika data sudah urut dari kecil ke besar, Bubble Sort hanya mengecek tiap elemen sekali
+tanpa melakukan pertukaran, jadi ini kasus terbaiknya.
